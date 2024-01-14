@@ -1,0 +1,70 @@
+@font-face {
+    font-family: bubble;
+    src: url(DeliusUnicase-Regular.ttf);
+}
+
+.body {
+    font-family: bubble;
+    background-color: #99bbff;
+}
+
+#form { 
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e6eeff;
+    border-radius: 18px;
+}
+
+#form h1 {
+    color: #3374ff;
+    text-align: center;
+    font-size: 28px;
+}
+
+#form button {
+    padding: 20px;
+    margin: 20px 90px;
+    width: 60%;
+    background-color: #4d79ff;
+    color: #e6eeff;
+    border: none;
+    border-radius: 18px;
+    font-size: 21px;
+    font-family: bubble;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    font-size: 21px;
+}
+
+.input-control label, input {
+    border: none;
+    border-radius: 20px;
+    font-size: 21px;
+    font-family: bubble;
+    padding: 10px;
+    margin: 15px;
+    width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    background-color: #e6ffe6;
+}
+
+.input-control.error input {
+    background-color: #ffcccc; 
+}
+
+.input-control .error {
+    color: #ff5c33;
+    font-size: 12px;
+}
+
