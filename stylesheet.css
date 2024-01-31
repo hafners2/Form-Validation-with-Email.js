@@ -1,52 +1,58 @@
 @font-face {
-    font-family: bubble;
-    src: url(DeliusUnicase-Regular.ttf);
+    font-family: monserrat;
+    src: url('Montserrat-VariableFont_wght.ttf');
 }
 
 .body {
-    font-family: bubble;
-    background-color: #99bbff;
+    font-family: monserrat;
+    background-image: url("p1bgd.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 1800px;
+    position: relative;
+    top: -80px;
+    right: 280px;
 }
 
 #form { 
-    width: 500px;
-    margin: 50px auto;
+    width: 850px;
+    height: 1300px;
     padding: 20px;
     background-color: #e6eeff;
-    border-radius: 18px;
-}
-
-#form h1 {
-    color: #3374ff;
-    text-align: center;
-    font-size: 28px;
+    opacity: 0.8;
+    border-radius: 50px;
+    margin: -30% 12% 15% 15%;
 }
 
 #form button {
     padding: 20px;
-    margin: 20px 90px;
+    margin: 15% 20%;
     width: 60%;
     background-color: #4d79ff;
     color: #e6eeff;
     border: none;
-    border-radius: 18px;
-    font-size: 21px;
-    font-family: bubble;
+    border-radius: 50px;
+    font-size: 42px;
+    font-family: monserrat;
 }
 
 .input-control {
     display: flex;
     flex-direction: column;
     margin: 10px 30px;
-    font-size: 21px;
+    font-size: 42px;
 }
 
 .input-control label, input {
     border: none;
-    border-radius: 20px;
-    font-size: 21px;
-    font-family: bubble;
-    padding: 10px;
+    border-radius: 50px;
+    font-size: 42px;
+    font-family: monserrat;
+    padding: 20px;
     margin: 15px;
     width: 100%;
 }
